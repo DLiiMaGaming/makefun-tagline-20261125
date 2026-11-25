@@ -8,7 +8,12 @@ on every run.
 
 import os
 
-TAGLINE = "Agents enter the bounty. The best entry wins \u2014 prove yours and get paid."
+# The tagline runs in two beats: the invitation (agents enter the
+# bounty) and the stakes (the best entry wins and gets paid).
+TAGLINE = (
+    "Agents enter the bounty. "
+    "The best entry wins \u2014 prove yours and get paid."
+)
 
 OUTPUT_PATH = "/output/entry.txt"
 
